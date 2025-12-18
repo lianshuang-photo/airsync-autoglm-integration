@@ -20,14 +20,23 @@ Screens/Settings/Components/
 ### 修改的文件
 
 ```
+Configs/
+└── SelfCompiled.xcconfig        # 修改了编译标志
+
+Core/
+├── AppState.swift               # 添加了 AI 状态管理
+└── Trial/
+    └── TrialManager.swift       # 添加了 SELF_COMPILED 检查
+
 Model/
 └── TabIdentifier.swift          # 添加了 AI Chat 标签
 
-Core/
-└── AppState.swift               # 添加了 AI 状态管理
-
-Screens/Settings/
-└── SettingsView.swift           # 集成了 AI 设置界面
+Screens/
+├── HomeScreen/
+│   └── AppContentView.swift     # 添加了 AI Chat 标签页
+└── Settings/
+    ├── SettingsView.swift       # 集成了 AI 设置界面
+    └── SettingsFeaturesView.swift  # 移除了 Auto-open links（基于老版本）
 ```
 
 ## 🚀 使用方法
