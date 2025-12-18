@@ -54,7 +54,7 @@ Assistant: ✅ Task completed successfully!
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/airsync-autoglm-integration.git
+git clone https://github.com/lianshuang-photo/airsync-autoglm-integration.git
 cd airsync-autoglm-integration
 ```
 
