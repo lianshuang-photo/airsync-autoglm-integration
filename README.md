@@ -23,23 +23,16 @@
 
 ## 🎬 演示
 
-```
-User: 打开微信给张三发消息
+<p align="center">
+  <img src="ex1.png" alt="AI 控制演示" width="600"/>
+</p>
 
-🤖 Executing: 打开微信给张三发消息
-  ▼ 3 steps
-  
-  Step 1 • Launch
-  ▼ 用户要求打开微信...
-  
-  Step 2 • Tap
-  ▼ 微信已打开，点击搜索...
-  
-  Step 3 • Type
-  ▼ 输入"张三"并发送消息...
-  
-Assistant: ✅ Task completed successfully!
-```
+**真实案例：** 用户说"打开微信给张三发消息"，AutoGLM 自动执行 3 个步骤完成任务：
+
+- **Step 1 • Launch** - 用户要求打开微信...
+- **Step 2 • Tap** - 微信已打开，点击搜索...
+- **Step 3 • Type** - 输入"张三"并发送消息...
+- ✅ Task completed successfully!
 
 ## 🚀 快速开始
 
