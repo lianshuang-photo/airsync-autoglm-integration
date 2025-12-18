@@ -1,0 +1,15 @@
+# AirSync-AutoGLM Integration Requirements
+
+# Web Framework
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# OpenAI Client (for model API)
+openai>=1.0.0
+
+# HTTP Requests
+requests>=2.31.0
+
+# Optional: For local model deployment
+# vllm>=0.6.0  # Requires GPU
+# sglang>=0.3.0  # Requires GPU
