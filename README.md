@@ -24,7 +24,7 @@
 ## 🎬 演示
 
 <p align="center">
-  <img src="ex1.png" alt="AI 控制演示" width="600"/>
+  <img src="docs/ex1.png" alt="AI 控制演示" width="600"/>
 </p>
 
 **真实案例：** 用户说"打开微信给张三发消息"，AutoGLM 自动执行 3 个步骤完成任务：
